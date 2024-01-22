@@ -7,7 +7,7 @@ class Player{
     double health;
     int level;
     Weapon weapon;
-    Armor armor;
+    Armor1 armor;
     Player(String name, double health){
         this.name=name;
         this.health=health;
@@ -28,9 +28,9 @@ class Weapon{
         System.out.println("Weapon : " + this.name + " , power : "+this.attackPower);
     }
 }
-class Armor{
+class Armor1{
     double defencePower;
-    Armor(double defencePower){
+    Armor1(double defencePower){
         this.defencePower=defencePower;
     }
 }
@@ -44,7 +44,7 @@ public class LatihanOOP1 {
 
         Weapon pedang =new Weapon("pedang",15);
 
-        Armor bajuBesi=new Armor(10);
+        Armor1 bajuBesi=new Armor1(10);
         player1.equipWeapon(pedang);
         player1.weapon.display();
     }

@@ -2,49 +2,21 @@ package com.enigma.java_oop;
 
 public class Main {
     public static void main(String[] args) {
-        //object adalah representasi hasil dari sebuah blueprint
-        //membuat object itu sama kaya variabale
-        //membuat object disebut juga dengan instance
-        // non primitive//class
-//        Car bmw = new Car();//intance class
-//        System.out.println(bmw.color);
-//        System.out.println(bmw.name);
-//        System.out.println(bmw.wheel);
-//
-//        //cara 1. reassiegn
-//        Car supra=new Car();
-//        supra.color="red";
-//        supra.name="toyota supra";
-//        supra.wheel=20;
-//        int a=supra.wheel;
-//
-//
-//        System.out.println(supra.color);
-//        System.out.println(supra.name);
-//        System.out.println(supra.wheel);
-//
-//        supra.start();
-//        supra.stop();
+//    Car ayla=new Car("yellow",4,"ayla");
+//    ayla.fillFuel(10);
+//    ayla.fillFuel(40);
+//    ayla.start();
+//    ayla.setFuel(17);
+//    int a= ayla.getFuel();
+//        System.out.println(a);
+//        System.out.println(ayla.print());
 
-        //cara 2 - constructor
-        //sebuah method yang nmaanya sma dengan class
-        // constructor akan dipanggil pertama kali objec itu di buat
-//        Car bmw = new Car("merah",13,"bmw");
-//        System.out.println(bmw.color);
-//        System.out.println(bmw.name);
-//        System.out.println(bmw.wheel);
-//        System.out.println(bmw.print());
+        Warrior player1=new Warrior("ahmad",7);
+        player1.display();
 
-        Car aaaa=new Car("yellow",12,"apasih");
-        Car bbb=new Car("yellow",12,"apasih");
-        bbb.ahmad="wira";
-        System.out.println(bbb.ahmad);
-        System.out.println(aaaa.color);
-        System.out.println(aaaa.ahmad);
-
-
-
-        //4 pilar oop (Encapsulation, Inheritance, Polymorphism,Abstaction)
-
+        System.out.println();
+        player1.setLevel(10);
+        player1.setName("ujang");
+        player1.display();
     }
 }
