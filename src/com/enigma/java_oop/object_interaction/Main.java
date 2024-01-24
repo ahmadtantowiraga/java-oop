@@ -1,39 +1,30 @@
 package com.enigma.java_oop.object_interaction;
+import com.enigma.java_oop.Animal;
+import com.enigma.java_oop.Mammal;
+import com.enigma.java_oop.polymorpisme.Develover;
+import com.enigma.java_oop.polymorpisme.Employee;
+import com.enigma.java_oop.polymorpisme.Manager;
 
 public class Main {
 
 
     public static void main(String[] args) {
-//        Hero saitama=new Hero(1000,300);
-//        Hero gatotKaca=new Hero(1000,400);
-//        saitama.attack(gatotKaca);
-//        gatotKaca.setName("Gatot Kaca");
-//        gatotKaca.displayHp();
-//        Hero boboboi=new Hero("Boboboi", 1000, 200);
-//        Hero upin=new Hero("Upin", 1000, 400);
-//        Monster tokDalang=new Monster("Atuk Dalang", 1000, 300);
-//        Monster abangSaleh=new Monster("Abang Saleh", 1000, 500);
+//        Animal animal=new Mammal();
+//         Mammal mammals2=(Mammal) animal;
 //
-//        boboboi.attack(boboboi);
-//        boboboi.displayHp();
-//
-//        boboboi.attack(upin);
-//        upin.displayHp();
-//
-//        boboboi.attack(tokDalang);
-//        tokDalang.displayHp();
-//
-//        abangSaleh.attack(boboboi);
-//        boboboi.displayHp();
-//
-//        Lamp lamp=new Lamp();
-//        Room room=new Room(lamp);
-//        room.switchLight();;
-//
-//        System.out.println(lamp.getIsOn());
-            Tes2 tes2=new Tes2();
-        System.out.println(tes2.ab);
+//        Mammal mammal2=new Mammal();
+//        Animal animal2=(Animal) mammal2;
+        Employee employee=new Employee("Alindo");
+        employee.sayHello("budi");
 
+//        Manager emon=(Manager) employee;
+//        emon.sayHello("budi");
+
+        employee=new Manager("Arahmano");
+        employee.sayHello("Alvindo");
+
+        employee=new Develover("Irfan");
+        employee.sayHello("Rahman");
 
 
     }
